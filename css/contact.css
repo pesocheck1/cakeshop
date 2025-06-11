@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+.access {
+    position: relative;
+    width: 100%;
+}
+
+.mainvisual img {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    object-position: left;
+}
+
+.access_text {
+    position: absolute;
+    top: 24px;
+    left: 29px;
+    text-align: left;
+}
+
+.access_text p {
+    margin-left: 10px;
+    line-height: 3.5;
+    font-family: glacial;
+    font-size: 20px;
+}
+
+h2 {
+    margin-top: 25px;
+    margin-bottom: 35px;
+    padding: 10px;
+    display: inline-block;
+    font-family: glacialbold;
+    font-size: 44px;
+    color: rgb(209, 0, 35);
+}
+
+mark {
+    display: inline-block;
+    line-height: 0em;
+    padding-bottom: 0.5em;
+    background-color: white;
+    color: rgb(209, 0, 35);
+}
+
+iframe {
+    margin-top: 30px;
+}
+
+#forms {
+    border-bottom: solid 1px rgb(209, 0, 35);
+}
+
+form {
+    width: 900px;
+    padding: 16px;
+    margin-top: 20px;
+    border: none;
+    font-family: glacial;
+    background-color: rgba(255, 255, 255, 0.301);
+    background-image: repeating-linear-gradient(-45deg, transparent, transparent 2px, rgba(155, 155, 155, 0.228) 2px, rgba(155, 155, 155, 0.39) 4px);
+}
+
+.formdiv {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.formdiv p {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    box-sizing: border-box;
+    border: none;
+    background-color: white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    margin: 0.5em 0;
+    padding: 0.5em;
+    width: 90%;
+    font-size: 16px;
+    text-align: center;
+}
+
+textarea {
+    margin: 0.5em 0;
+    padding: 0.5em;
+    width: 90%;
+    height: 160px;
+    font-size: 16px;
+}
+
+.input {
+    list-style-type: none;
+}
+
+input {
+    border-radius: 8px;
+    padding: 12px 48px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: black;
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 56.25%;
+}
+
+.responsive {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 800px) {
+
+    .access_text {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        text-align: left;
+    }
+
+    .access_text p {
+        margin-left: 5px;
+        line-height: 2;
+        font-family: glacial;
+        font-size: 16px;
+    }
+
+    h2 {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        padding: 7px;
+        display: inline-block;
+        font-family: glacialbold;
+        font-size: 28px;
+        color: rgb(209, 0, 35);
+    }
+
+}

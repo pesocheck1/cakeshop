@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sweet Cake bakeshop</title>
+    <meta name="description" content="Sweet Cake Bakery">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="icon" href="../images/favicon.ico">
+    <style>
+        @font-face {
+            font-family: glacial;
+            src: url(gl.otf);
+        }
+
+        @font-face {
+            font-family: glacialbold;
+            src: url(glb.otf);
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo"><a href="../index.html"><img src="../images/olol.png" alt="logo"></a></div>
+        <div class="buttons">
+            <a class="button2" href="../index.html">Home</a>
+            <a class="button2" href="../index.html#About">About</a>
+            <a class="button2" href="../index.html#Occasion">Occasion</a>
+            <a class="button2" href="../index.html#Flavor">Flavor</a>
+            <a class="button2" href="index.html">Contact us</a>
+        </div>
+    </nav>
+    <main>
+
+        <div class="access">
+
+            <div class="access_text">
+                <h2><mark>How to find us</mark></h2>
+                <p>〒914-0142 福岡県福岡市城南区片江１丁目４−１８
+                    <br>Tel&Fax : 098-900-7777<br>info@sweetcake.com<br>定休日：土日祝日<br>営業時間: 11:00 - 19:00
+                </p>
+            </div>
+            <img class="mainvisual" src="../images/main.png" alt="banner">
+
+        </div>
+
+        <div class="container">
+            <iframe class="responsive"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2597.2953871416257!2d130.37655580478224!3d33.55009359030233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354193f79c984d69%3A0x22dd9608705a1090!2z44CSODE0LTAxNDIg56aP5bKh55yM56aP5bKh5biC5Z-O5Y2X5Yy654mH5rGf77yR5LiB55uu77yU4oiS77yR77yYIO-8ue-9ge-9me-9gQ!5e0!3m2!1sja!2sjp!4v1722219974964!5m2!1sja!2sjp"
+                width="900" height="600" style="border:0;" allowfullscreen loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <h2 id="forms">お問い合わせフォーム</h2>
+
+        <div class="formdiv">
+            <form action="#" method="post">
+                <p>
+                    <label for="name-field">お名前</label><br>
+                    <input type="text" name="name" id="name-field" placeholder="浦島　太郎">
+                </p>
+
+                <p>
+                    <label for="email-field">メールアドレス</label><br>
+                    <input type="email" name="email" id="email-field" placeholder="client@domain.com">
+                </p>
+                <p>
+                    <label for="tel-field">電話番号</label><br>
+                    <input type="tel" name="tel-field" id="tel-field" placeholder="123-4567-8910">
+                </p>
+                <p>
+                    <label for="comment">お問い合わせ内容</label><br>
+                    <textarea rows="5" name="comment" id="comment"></textarea>
+                </p>
+                <input type="submit" name="submit" value="SEND" id="submit">
+                <input type="reset" name="reset" value="RESET" id="reset">
+            </form>
+        </div>
+
+    </main>
+    <footer>
+        <p>Sweet Cake &copy;2024</p>
+        <a class="btn" href="index.html">Contact us</a>
+    </footer>
+</body>
+
+</html>
